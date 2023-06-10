@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .new-book{
+    width: 100%;
+  }
+#new-book-btn{
+    display: block;
+    margin: 0 auto 20px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 16px;
+    padding: 15px;
+    cursor: pointer;
+    
+}
+#new-book-btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 80%;
+   max-width: 400px;
+}
+
+#new-book-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#new-book-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  #new-book-form input[type="text"],
+  #new-book-form input[type="checkbox"],
+  #new-book-form input[type="submit"] {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: border-color 0.3s;
+    }
+
+
+#new-book-form input[type="text"]:focus {
+        border-color: dodgerblue;
+        box-shadow:0 0 5px dodgerblue;
+        outline: none;
+  }
+  #new-book-form input[type="checkbox"] {
+    margin-left: 5px;
+   
+  }
+
+#new-book-form input[type="submit"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+}
+
+#new-book-form input[type="submit"]:hover{
+    background-color: rgb(39, 35, 35);
+}
+
+
+.book-card{
+    display: block;
+    text-align: center;
+    border: 1px solid rgb(203, 197, 197);
+    width: 100px;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+
+.read-status {
+    color: white;
+    display: block;
+}
+
+.read-status:not(.read) {
+    background-color: rd;
+}
+
+.read-status.read {
+    background-color: blue;
+}
+
+  
+
+  .remove-btn{
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
