@@ -10,6 +10,7 @@ body {
   .new-book{
     width: 100%;
   }
+
 #new-book-btn{
     display: block;
     margin: 0 auto 20px;
