@@ -22,7 +22,7 @@ A simple Library Management System web application for adding, editing, and orga
 
 ## Demo
 
-[Live Demo](#) - Add a link to the live demo if available.
+[Live Demo](#) - https://kingosolo.github.io/Library_management_system/
 
 ## Getting Started
 
